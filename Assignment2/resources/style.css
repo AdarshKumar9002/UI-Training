@@ -6,6 +6,7 @@
 :root {
     --primaryColor: #535965;
     --secondryColor: #1B252C;
+    --sepraterBgColor: #eee;
     font-size: 16px;
 }
 
@@ -66,9 +67,10 @@ nav + div a {
     color: var(--secondryColor);
 }
 
-hr {
-    margin-top: 1em;
-    margin-bottom: 1em;
+.seprater {
+    height: 100px;
+    background-color: var(--sepraterBgColor);
+
 }
 footer > p {
     margin: 2.06em;
