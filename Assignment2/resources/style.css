@@ -7,7 +7,13 @@
     --primaryColor: #535965;
     --secondryColor: #1B252C;
     --sepraterBgColor: #eee;
+    --primaryFontFamily:'Source Serif 4', serif;
+    --secondryFontFamily:'Mulish', sans-serif;
+
     font-size: 16px;
+}
+body {
+    font-family: var(--primaryFontFamily);
 }
 
 a {
@@ -17,6 +23,7 @@ a {
 h1{
     font-size: 2rem;
     text-align: center;
+    font-family: var(--secondryFontFamily);
 }
 h4 {
  font-size: 1em;
@@ -70,11 +77,10 @@ nav + div a {
 .seprater {
     height: 100px;
     background-color: var(--sepraterBgColor);
-
 }
 footer > p {
     margin: 2.06em;
-    margin-left: 9.5em;
+    margin-left: 10.9em;
 } 
 
 .footer__container{
